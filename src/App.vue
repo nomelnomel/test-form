@@ -137,7 +137,6 @@ export default {
       if ($dirty) {
         !required && errors.push('Введите, пожалуйста, Ваше имя')
         !validName && errors.push('Имя может состоять только из букв, пробелов и дефисов')
-
       }
       return errors
     },
@@ -304,9 +303,7 @@ export default {
         background-position: center center;
         background-size: 50% 50%;
       }
-
     }
-
   }
 
   &__btn {
@@ -341,11 +338,8 @@ export default {
   &__login {
     font-size: 16px;
     line-height: 22px;
-
-
   }
 }
-
 
 a {
   text-decoration: none;
